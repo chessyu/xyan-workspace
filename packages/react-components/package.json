@@ -1,0 +1,11 @@
+{
+	"name": "@xyan/react-components",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"build": "turbo build"
+	},
+	"devDependencies": {
+		"@xyan/tools-cli": "workspace:*"
+	}
+}

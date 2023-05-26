@@ -1,0 +1,27 @@
+root=true
+
+# 对所有文件有效
+[*]
+charset=utf-8   
+end_of_line=lf  #设置换行符格式，可选 lf(一般都是选它)、cr、crlf
+insert_final_newline=true #保存文件时是否在文件最后一行插入一个空行
+indent_style=space #设置缩进风格，可选值有制表符 tab 和空格 space
+indent_size=2 #设置缩进风格数，一般为整数 2 或 4
+
+# 对后缀名为vue的文件有效
+[*.vue]
+indent_style=space
+indent_size=2
+
+# 对.analysis_options文件以及后缀名为yml和yaml文件有效
+[{.analysis_options,*.yml,*.yaml}]
+indent_style=space
+indent_size=2
+
+# 对后缀名为js,jsx,ts,tsx的文件有效，也可以写成[{*.js, *.jsx, *.ts, *.tsx}],相同的部分*.可以提出去
+[*.{js,jsx,ts,tsx}]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = false   #是否删除行尾的空格，可为true和false
+insert_final_newline = true
+end_of_line = lf   

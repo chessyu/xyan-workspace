@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"jsx": "react-jsx",
+		"target": "ESNext",
+		"lib": ["es6", "DOM"],
+		"types": ["node"],
+		"module": "CommonJS",
+		"outDir": "./",
+
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"noImplicitThis": true,
+		"typeRoots": ["./node_modules/@types", "./types"],
+		"baseUrl": "./",
+		"paths": {
+			"@src/*": ["src/*"],
+			"@pages/*": ["src/pages/*"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "webpack.config.js", "dist", "config"]
+}

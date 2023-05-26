@@ -1,0 +1,52 @@
+{
+	"name": "turbo-monorepo-xyan",
+	"private": true,
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev",
+		"lint": "turbo run lint",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"prepare": "husky install",
+		"commit": "cz"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.26.1",
+		"@commitlint/cli": "^17.6.3",
+		"@commitlint/config-conventional": "^17.6.3",
+		"@turbo/gen": "^1.9.7",
+		"@types/antd": "^1.0.0",
+		"@types/react": "^18.2.6",
+		"@types/react-dom": "^18.2.4",
+		"@typescript-eslint/eslint-plugin": "^5.59.7",
+		"@typescript-eslint/parser": "^5.59.7",
+		"commitizen": "^4.3.0",
+		"commitlint-config-cz": "^0.13.3",
+		"cz-conventional-changelog": "^3.3.0",
+		"cz-customizable": "^7.0.0",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.32.2",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.2.2",
+		"prettier": "^2.5.1",
+		"shelljs": "^0.8.5",
+		"turbo": "^1.9.7",
+		"webpack": "^5.83.1",
+		"webpack-cli": "^5.1.1",
+		"yargs-parser": "^21.1.1"
+	},
+	"dependencies": {
+		"antd": "^5.5.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.11.2",
+		"use-immer": "^0.9.0"
+	},
+	"packageManager": "pnpm@7.15.0",
+	"config": {
+		"commitizen": {
+			"path": "node_modules/cz-customizable"
+		}
+	}
+}
