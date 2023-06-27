@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom'
 
-export default function Home(props) {
+export default function Index(props) {
 	return (
 		<div>
 			<Outlet />
