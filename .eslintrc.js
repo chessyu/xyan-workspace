@@ -33,6 +33,6 @@ module.exports = {
 		'react/jsx-no-comment-textnodes': 0,
 		'@typescript-eslint/no-explicit-any': 0,
 		'@typescript-eslint/no-unused-vars': 0,
-		'linebreak-style': ['error', 'unix']
+		'linebreak-style': 0
 	}
 }
